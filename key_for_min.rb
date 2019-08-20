@@ -4,7 +4,7 @@ require 'pry'
 
 def key_for_min_value(name_hash)
   min_key = ''
-  v =  n
+  v =  ''
   
   name_hash.each_pair do |key,value|
     if value < v 
